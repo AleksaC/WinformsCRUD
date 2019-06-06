@@ -89,10 +89,5 @@ namespace University.Forms
             label3.Text = $"Smjer: {e.Row.Cells[2].Value} - {e.Row.Cells[3].Value}";
             label4.Text = $"Broj Indeksa: {e.Row.Cells[4].Value}/{e.Row.Cells[5].Value.ToString().Substring(2)}";
         }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
