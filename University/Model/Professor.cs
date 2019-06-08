@@ -12,7 +12,7 @@ namespace University.Model
         public string Specialty       { get; set; }
         [Column(TypeName = "text")]
         public string Biography       { get; set; }
-        public string DepartmentName { get; set; }
+        public string DepartmentName  { get; set; }
 
         [ForeignKey("DepartmentName")]
         public virtual Department Department { get; set; }
